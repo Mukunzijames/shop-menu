@@ -1,0 +1,67 @@
+body {
+    padding: 50px 10%;
+    display:flex;
+    flex-direction: column;
+    background-color: #aeb4b5;
+}
+h2 {
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.container {
+    width: 32%;
+    border: 2px solid black;
+    background-color: gray;
+    position: relative;
+    height: fit-content;
+}
+.title {
+    position: absolute;
+    top: 0;
+    right:0;
+    width: fit-content;
+    padding: 3px 35px;
+    border: 2px solid black;
+    background-color: aqua;
+    font-size: 18px;
+    font-weight: bold;
+}
+.paragraph {
+    margin:40px 20px 20px;
+    width: calc(100%-40px);
+    height: fit-content;
+    
+}
+#glas {
+    background-color: rgb(154, 31, 31);
+}
+#gla {
+    background-color: rgb(206, 141, 141);
+}
+#glass {
+    background-color: rgb(197, 209, 119);
+}
+@media  screen and (max-width: 991px) {
+   .container {
+    width:48%;
+
+   }
+   #gap {
+    width: 100%;
+    margin-top: 20px;
+
+   }
+}
+@media screen and (max-width: 767px){
+    .container{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+    
